@@ -1,0 +1,31 @@
+PositionData:
+    FeetPosition:
+        x: 58.36548
+        y: 1.938111
+        z: 179.9808
+    HeadHorizontalRotation: 177.865
+    HeadVerticalRotation: 69.35369
+    Scale: 1
+    Flying: true
+Hotbar: 
+    SelectedHotbarSlot: 5
+    HotbarItems:
+        - MHG.XorGate
+        - MHG.Switch
+        - MHG.Button
+        - MHG.Mount
+        - MHG.Socket
+        - MHG.DLatch
+
+
+
+
+        - MHG.PanelLabel
+        - subassembly::4-bit adder
+        - subassembly::8-bit XOR
+
+
+
+
+
+

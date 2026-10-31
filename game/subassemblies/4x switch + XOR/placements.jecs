@@ -1,0 +1,16 @@
+Placements:
+    -
+        CornerMidpointPositionBeforeFlipping:
+            x: 0
+            y: 0
+            z: 0
+        RotationBeforeFlipping:
+            x: 0.580703
+            y: 0
+            z: 0.8141155
+            w: 0
+        PlacementType: OnFixedPlacementPoint
+        Flipped: true
+        BoardRotationState: 0
+        Type: Standard
+data_format_version: 1

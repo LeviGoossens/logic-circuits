@@ -1,0 +1,28 @@
+PositionData:
+    FeetPosition:
+        x: 177.8302
+        y: 11.65485
+        z: 197.023
+    HeadHorizontalRotation: 33.25198
+    HeadVerticalRotation: 53.60025
+    Scale: 1
+    Flying: true
+Hotbar: 
+    SelectedHotbarSlot: 1
+    HotbarItems:
+        - MHG.Inverter
+        - subassembly::8-bit decoder
+        - subassembly::4-bit decoder
+        - MHG.Buffer_WithOutput
+        - MHG.Inverter
+        - subassembly::16-pin relay
+        - subassembly::8-bit AU
+
+
+
+        - subassembly::8-bit D Flip Flop
+
+        - subassembly::16-bytes
+        - MHG.CircuitBoard
+        - MHG.PanelLabel
+        - subassembly::16-segment display
