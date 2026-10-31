@@ -14,3 +14,4 @@ Reasons:
 - [I Designed My Own 16-bit CPU](https://www.youtube.com/watch?v=Zt0JfmV7CyI) with AstroSam
 - [I designed my own 8-bit computer just to play PONG](https://www.youtube.com/watch?v=7A1SzIIKMho) with jdh
 - [I built my own graphics card](https://www.youtube.com/watch?v=OW1EmG7b4DU) with jdh
+- [Digital Logic](https://www.youtube.com/playlist?list=PL1C2GgOjAF-KY0zekzeMtFcYSlACDHyOK) with Padraic Edgington
