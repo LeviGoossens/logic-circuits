@@ -1,5 +1,5 @@
 # When this counter (which decreases over time) reaches zero, a new backup is made and the counter is reset.
-backupTimerRemainingSeconds: 875.55403023
+backupTimerRemainingSeconds: 643.946222484999
 
 # This counter (which increases over time) is used by the backups system to choose which backups to keep and which to discard, based on how backups are configured in config.jecs.
-backupWorldAgeSeconds: 261494
+backupWorldAgeSeconds: 316497

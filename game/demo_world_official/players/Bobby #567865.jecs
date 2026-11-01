@@ -1,16 +1,16 @@
 PositionData:
     FeetPosition:
-        x: 177.8302
-        y: 11.65485
-        z: 197.023
-    HeadHorizontalRotation: 33.25198
-    HeadVerticalRotation: 53.60025
+        x: 248.9985
+        y: 2.384549
+        z: 216.2189
+    HeadHorizontalRotation: 173.9991
+    HeadVerticalRotation: 53.20182
     Scale: 1
     Flying: true
 Hotbar: 
-    SelectedHotbarSlot: 1
+    SelectedHotbarSlot: 3
     HotbarItems:
-        - MHG.Inverter
+        - MHG.ThroughPeg
         - subassembly::8-bit decoder
         - subassembly::4-bit decoder
         - MHG.Buffer_WithOutput
@@ -26,3 +26,7 @@ Hotbar:
         - MHG.CircuitBoard
         - MHG.PanelLabel
         - subassembly::16-segment display
+
+        - MHG.Peg
+
+        - MHG.Flag
