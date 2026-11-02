@@ -6,9 +6,9 @@ Placements:
             z: 0
         RotationBeforeFlipping:
             x: 0
-            y: -0.7863963
+            y: 0.7071067
             z: 0
-            w: 0.6177225
+            w: 0.7071068
         PlacementType: OnTerrain
         Flipped: false
         BoardRotationState: 0
