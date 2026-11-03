@@ -1,0 +1,36 @@
+{
+	"threadHistory": [
+		{
+			"thread": [
+				"FILES/Simulating a computer from scratch in Logic World.md"
+			],
+			"currentNode": "FILES/Simulating a computer from scratch in Logic World.md"
+		},
+		{
+			"thread": [
+				"FILES/Components.md"
+			],
+			"currentNode": "FILES/Components.md"
+		}
+	],
+	"threadIndex": 1,
+	"previousSession": "",
+	"map": {
+		"nodes": {
+			"FILES/Simulating a computer from scratch in Logic World.md": {
+				"node": "FILES/Simulating a computer from scratch in Logic World.md",
+				"isRoot": false,
+				"strength": 2,
+				"dateCreated": "2026-10-31T22:06:25.857Z"
+			},
+			"FILES/Components.md": {
+				"node": "FILES/Components.md",
+				"isRoot": false,
+				"strength": 2,
+				"dateCreated": "2026-10-31T22:06:26.801Z"
+			}
+		},
+		"connections": []
+	},
+	"version": 1
+}

@@ -1,0 +1,24 @@
+{
+	"threadHistory": [
+		{
+			"thread": [
+				"FILES/decoding binairy.md"
+			],
+			"currentNode": "FILES/decoding binairy.md"
+		}
+	],
+	"threadIndex": 0,
+	"previousSession": "FILES/.tangent/tangents/funny-dolphin_0/sessions/2026-10-31_23-6-23.tangentsession",
+	"map": {
+		"nodes": {
+			"FILES/decoding binairy.md": {
+				"node": "FILES/decoding binairy.md",
+				"isRoot": false,
+				"strength": 2,
+				"dateCreated": "2026-11-02T10:26:05.909Z"
+			}
+		},
+		"connections": []
+	},
+	"version": 1
+}

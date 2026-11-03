@@ -1,0 +1,81 @@
+{
+	"version": 1,
+	"date": "2026-11-02T11:23:49.720Z",
+	"items": {
+		"FILES/.tangent/tangents/funny-dolphin_0/sessions/2026-11-2_11-26-5.tangentsession": {
+			"uuid": "1f1d6a7c-f9a1-6460-8fc9-aeee6202a337"
+		},
+		"FILES/Components.md": {
+			"uuid": "1f1d5774-f161-6db0-b69b-0d10b2620a08",
+			"modified": "2026-10-31T17:01:46.935Z",
+			"structure": [
+				{
+					"type": 2,
+					"level": 1,
+					"text": "Clock",
+					"start": 0,
+					"end": 7
+				},
+				{
+					"type": 2,
+					"level": 2,
+					"text": "Analogies",
+					"start": 207,
+					"end": 219
+				},
+				{
+					"type": 2,
+					"level": 2,
+					"text": "The Real World",
+					"start": 236,
+					"end": 253
+				},
+				{
+					"type": 2,
+					"level": 1,
+					"text": "ALU (Arithmetic Logic Unit)",
+					"start": 578,
+					"end": 607
+				},
+				{
+					"type": 2,
+					"level": 2,
+					"text": "functions and operations OF ALU",
+					"start": 884,
+					"end": 918
+				},
+				{
+					"type": 2,
+					"level": 1,
+					"text": "Memory",
+					"start": 1627,
+					"end": 1635
+				}
+			]
+		},
+		"FILES/Simulating a computer from scratch in Logic World.md": {
+			"uuid": "1f1d5774-f161-6db1-8d95-14c5547dbe4f",
+			"modified": "2026-10-31T10:19:20.476Z",
+			"structure": [
+				{
+					"type": 2,
+					"level": 1,
+					"text": "Conventions",
+					"start": 0,
+					"end": 13
+				},
+				{
+					"type": 2,
+					"level": 1,
+					"text": "Components",
+					"start": 290,
+					"end": 302
+				}
+			]
+		},
+		"FILES/decoding binairy.md": {
+			"uuid": "1f1d6a7c-f99e-6d50-a7fd-173bfd37ee4a",
+			"modified": "2026-11-02T11:23:23.933Z"
+		}
+	}
+}

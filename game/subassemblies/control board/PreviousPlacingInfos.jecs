@@ -1,7 +1,7 @@
 PlacingInfos:
     -
         Flipped: false
-        RotationAboutUpVector: 0
+        RotationAboutUpVector: 180
         Offset:
             x: 0
             y: 0
