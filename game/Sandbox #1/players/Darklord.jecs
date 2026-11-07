@@ -1,16 +1,15 @@
 PositionData:
     FeetPosition:
-        x: -40.87312
-        y: 0.16
-        z: -34.88473
-    HeadHorizontalRotation: 92.85072
-    HeadVerticalRotation: 33.65381
+        x: 13.27483
+        y: 3.057175
+        z: -107.6561
+    HeadHorizontalRotation: 78.50056
+    HeadVerticalRotation: 42.55072
     Scale: 1
-    Flying: false
+    Flying: true
 Hotbar: 
-    SelectedHotbarSlot: 1
+    SelectedHotbarSlot: 0
     HotbarItems:
-        - MHG.Switch
         - MHG.Switch
         - MHG.Peg
         - MHG.StandingDisplay
@@ -18,11 +17,8 @@ Hotbar:
         - MHG.CircuitBoard, FmgZAQAAAAEAAAA=, 0, 0
         - MHG.CircuitBoard, AG2wAQAAAAEAAAA=, 0, 0
         - MHG.CircuitBoard, MzMzAQAAAAEAAAA=, 0, 0
-        - MHG.Switch
-
-        - MHG.AndGate
-
         - MHG.PanelLabel
-        - MHG.DLatch
-
         - MHG.Inverter
+
+
+
