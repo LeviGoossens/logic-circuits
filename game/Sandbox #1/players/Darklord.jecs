@@ -1,16 +1,16 @@
 PositionData:
     FeetPosition:
-        x: 13.27483
-        y: 3.057175
-        z: -107.6561
-    HeadHorizontalRotation: 78.50056
-    HeadVerticalRotation: 42.55072
+        x: -11.05355
+        y: 4.240284
+        z: -73.01279
+    HeadHorizontalRotation: 322.6004
+    HeadVerticalRotation: 8.1504
     Scale: 1
     Flying: true
 Hotbar: 
     SelectedHotbarSlot: 0
     HotbarItems:
-        - MHG.Switch
+        - MHG.AndGate
         - MHG.Peg
         - MHG.StandingDisplay
         - MHG.CircuitBoard
