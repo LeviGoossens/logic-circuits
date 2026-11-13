@@ -1,16 +1,16 @@
 PositionData:
     FeetPosition:
-        x: 59.88459
-        y: 0.009999912
-        z: -123.8552
-    HeadHorizontalRotation: 156.9004
-    HeadVerticalRotation: 25.35033
+        x: 20.2967
+        y: 2.852559
+        z: -98.91401
+    HeadHorizontalRotation: 140.3018
+    HeadVerticalRotation: 51.10126
     Scale: 1
-    Flying: false
+    Flying: true
 Hotbar: 
-    SelectedHotbarSlot: 9
+    SelectedHotbarSlot: 6
     HotbarItems:
-        - MHG.StandingDisplay
+        - MHG.Buffer_WithOutput
         - MHG.CircuitBoard
         - MHG.CircuitBoard, FmgZAQAAAAEAAAA=, 0, 0
         - MHG.CircuitBoard, AG2wAQAAAAEAAAA=, 0, 0
@@ -25,3 +25,7 @@ Hotbar:
 
         - subassembly::8-pin relay
         - MHG.Peg
+
+        - MHG.PanelSwitch
+
+        - subassembly::256 bytes RAM
