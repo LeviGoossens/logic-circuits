@@ -13,34 +13,34 @@
 4 4e bits are the second part of the address
 
 ## assembly instructions
-binary representation        | assembly instruction                                               | instruction explained                             | note
+binary representation          | assembly instruction                                               | instruction explained                             | note
 
 
-0000 0000 <00> <00> <00> <_> | add <register address a> <register address b> <register address c> | register A + register B into register C           |
-0000 0001 <00> <00> <00> <_> | sub <register address a> <register address b> <register address c> | register A - register B into register C           |
-0000 0010 <00> <00> <00> <_> | OR <register address a> <register address b> <register address c>  | register A or register B bitwise into register C  |
-0000 0011 <00> <00> <00> <_> | AND <register address a> <register address b> <register address c> | register A and register B bitwise into register C |
-0000 0100 <00> <00> <_>      | XOR <register address a> <register address b> <register address c> | register A xor register B bitwise into register C |
-0000 0101 <00> <00> <_>      | inv <register address a> <register address c>                      | register A invert bitwise into register C         |
-0000 0110 <00> <00> <_>      | shift_l1 <register address a> <register address c>                 | register A shift left bitwise into register C     |
-0000 0111 <00> <00> <_>      | shift_r1 <register address a> <register address c>                 | register A shift right bitwise into register C    |
+0000 0000 <00><00> <00><__>    | add <register address a> <register address b> <register address c> | register A + register B into register C           |
+0000 0001 <00><00> <00><__>    | sub <register address a> <register address b> <register address c> | register A - register B into register C           |
+0000 0010 <00><00> <00><__>    | OR <register address a> <register address b> <register address c>  | register A or register B bitwise into register C  |
+0000 0011 <00><00> <00><__>    | AND <register address a> <register address b> <register address c> | register A and register B bitwise into register C |
+0000 0100 <00><00> <00><__>    | XOR <register address a> <register address b> <register address c> | register A xor register B bitwise into register C |
+0000 0101 <00><__> <00><__>    | inv <register address a> <register address c>                      | register A invert bitwise into register C         |
+0000 0110 <00><__> <00><__>    | shift_l1 <register address a> <register address c>                 | register A shift left bitwise into register C     |
+0000 0111 <00><__> <00><__>    | shift_r1 <register address a> <register address c>                 | register A shift right bitwise into register C    |
 
-0000 1000 <00> <00> <_>      | incr_1 <register address a> <register address c>                   | increment register A by 1 into register C         | not implemented by ALU. use ADD 1 instead?
-0000 1001 <00> <00> <_>      | decr_1 <register address a> <register address c>                   | decrement register A by 1 into register C         | not implemented by ALU. use SUB 1 instead?
-
-
-0001 00 <00> <0000 0000>     | load <register address a> <RAM address>                            | load RAM into register A                          |
-0001 01 <00> <0000 0000>     | store <register address a> <RAM address>                           | store register A into RAM                         |
-0001 10 <00> <00> <_>        | copy <register address a> <register address b>                     | copy data in register A into register B           | might be unneeded
+0000 1000 <00><__> <00><__>    | incr_1 <register address a> <register address c>                   | increment register A by 1 into register C         | not implemented by ALU. use ADD 1 instead?
+0000 1001 <00><__> <00><__>    | decr_1 <register address a> <register address c>                   | decrement register A by 1 into register C         | not implemented by ALU. use SUB 1 instead?
 
 
-0010 0000 <0000 0000>        | jump <RAM address>                                                 | jump to spot in memory always                     |
-0010 0001 <0000 0000>        | jump zero <RAM address>                                            | jump to spot in memory if ALU has zero flag       |
-0010 0010 <0000 0000>        | jump neg <RAM address>                                             | jump to spot in memory if ALU has negative flag   |
+0001 00 <00> <00  00   00  00> | load <register address a> <RAM address>                            | load RAM into register A                          |
+0001 01 <00> <00  00   00  00> | store <register address a> <RAM address>                           | store register A into RAM                         |
+0001 10 <__> <00><__> <00><__> | copy <register address a> <register address c>                     | copy data in register A into register C           |
 
 
-0011 0000 <_>                | HALT                                                               | the program is done and halts the computer        |
-0011 0001 <0000 0000>        | PRINT <RAM address>                                                | print the data from ram to screen as HEX value    |
+0010 0000 <0000 0000>          | jump <RAM address>                                                 | jump to spot in memory always                     |
+0010 0001 <0000 0000>          | jump zero <RAM address>                                            | jump to spot in memory if ALU has zero flag       |
+0010 0010 <0000 0000>          | jump neg <RAM address>                                             | jump to spot in memory if ALU has negative flag   |
+
+
+0011 0000 <____ ____>          | HALT                                                               | the program is done and halts the computer        |
+0011 0001 <0000 0000>          | PRINT <RAM address>                                                | print the data from ram to screen as HEX value    |
 
 ## assembly data
 "0000 0101" @1000 0000 | "5" @80
